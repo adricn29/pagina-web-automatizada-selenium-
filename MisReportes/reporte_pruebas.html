@@ -1,0 +1,101 @@
+<html>
+
+<head>
+    <title>Reporte de Pruebas de Libreria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .pass {
+            color: green;
+        }
+
+        .fail {
+            color: red;
+        }
+
+
+        img {
+            width: 400px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Reporte de Pruebas</h1>
+    <h2>Resumen de Pruebas</h2>
+    <table>
+        <tr>
+            <th>Total de Pruebas</th>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>Pruebas Pasadas</th>
+            <td>5</td>
+        </tr>
+        <tr>
+            <th>Pruebas Fallidas</th>
+            <td>1</td>
+        </tr>
+    </table>
+    <h2>Detalle de las Pruebas</h2>
+    <table id="detalle-pruebas">
+        <tr>
+            <th>Escenario</th>
+            <th>Resultado</th>
+            <th>Captura de Pantalla</th>
+        </tr>
+        <tr>
+            <td>Abrir la pagina</td>
+            <td class="pass">Paso</td>
+            <td><img src="/capturas/1_pagina_cargada.png" alt="Abrir la pagina"></td>
+        </tr>
+        <tr>
+            <td>Verificar titulo</td>
+            <td class="pass">Paso</td>
+            <td><img src="/capturas/2_titulo_correcto.png" alt="Verificar titulo"></td>
+        </tr>
+        <tr>
+            <td>Verificar enlace 'Libros'</td>
+            <td class="pass">Paso</td>
+            <td><img src="/capturas/3_libros_link.png" alt="Verificar 'Libros'"></td>
+        </tr>
+        <tr>
+            <td>Verificar enlace 'Autores'</td>
+            <td class="pass">Paso</td>
+            <td><img src="/capturas/4_autores_link.png" alt="Verificar 'Autores'"></td>
+        </tr>
+        <tr>
+            <td>Verificar enlace 'Contacto'</td>
+            <td class="pass">Paso</td>
+            <td><img src="/capturas/5_contacto_link.png" alt="Verificar 'Contacto'"></td>
+        </tr>
+        <tr>
+            <td>Error en la prueba</td>
+            <td class="fail">Fallo</td>
+            <td><img src="/capturas/error.png" alt="Error en la prueba"></td>
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
